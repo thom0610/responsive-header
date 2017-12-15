@@ -12,6 +12,7 @@ html {
   text-size-adjust: 100%;
   font: normal 100%/1.5 sans-serif;
   font-family: 'Ubuntu', sans-serif;
+  overflow: hidden;
 }
 
 *, *::before, *::after {
@@ -20,8 +21,8 @@ html {
 
 body {
   background-color: #18294f;
-  overflow: hidden;
   margin: 0;
+  max-height: ;
 }
 
 h1 {
@@ -30,22 +31,25 @@ h1 {
   font-size: 2rem;
   color: #fff;
   margin: 0;
+  margin-top: .3rem;
+  margin-bottom: .5rem;
 }
 
 nav ul {
   list-style-type: none;
-  padding: .75rem;
+  padding: .5em .75em;
+  margin: 0;
 }
 
 nav li {
   font-size: 1.125rem;
-  padding: .3em 0 .5em;
 }
 
 a {
   display: block;
   text-decoration: none;
   color: #6c8fe0;
+  padding: .3em 0 .5em;
 }
 
 a:hover {
